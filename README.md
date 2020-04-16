@@ -6,25 +6,72 @@
 
 https://noxouille.github.io/pydata2020-3LVDL/
 
-# PyData 2020
+# Three essential levels of Vision Deep Learning
 
-TODO: replace content here
+Compiled by: Ferdi Pratama
 
-_powered by [fastpages](https://github.com/fastai/fastpages)_
+This repo contains information compiled from external sources, explaining the three essential levels of vision deep learning, with emphasis on Convolutional Neural Network.
 
+## Introduction
 
-## What To Do Next?
+![alt text](https://miro.medium.com/max/2000/1*tQPeSFPrJLx4I6a8PizcqQ.png)
+Source: https://medium.com/@prashant.brahmbhatt32/the-yolo-object-detection-c195994b53aa
 
-Great!  You have setup your repo.  Now its time to start writing content.  Some helpful links:
+### Convolutional Neural Network (CNN)
 
-- [Writing Blogs With Jupyter](https://github.com/fastai/fastpages#writing-blog-posts-with-jupyter)
+![alt text](https://www.smalltechnews.com/wp-content/uploads/2020/01/frc-75f86bd633f67bfa0938d0dcbcc89375.jpg)
 
-- [Writing Blogs With Markdown](https://github.com/fastai/fastpages#writing-blog-posts-with-markdown)
+Source: https://www.smalltechnews.com/wp-content/uploads/2020/01/frc-75f86bd633f67bfa0938d0dcbcc89375.jpg
 
-- [Writing Blog Posts With Word](https://github.com/fastai/fastpages#writing-blog-posts-with-microsoft-word)
+### Layer Visualization
 
-- [(Optional) Preview Your Blog Locally](_fastpages_docs/DEVELOPMENT.md)
+![Layer visualization](https://miro.medium.com/max/4076/1*ZD3ewOfpfsMAjhp4MYFnog.png)
 
-Note: you may want to remove example blog posts from the `_posts`,  `_notebooks` or `_word` folders (but leave them empty, don't delete these folders) if you don't want these blog posts to appear on your site.
+Source: https://miro.medium.com/max/4076/1*ZD3ewOfpfsMAjhp4MYFnog.png
 
-Please use the [nbdev & blogging channel](https://forums.fast.ai/c/fastai-users/nbdev/48) in the fastai forums for any questions or feature requests.
+## Level 1 - Image classification
+
+<img src="https://i2.wp.com/sourcedexter.com/wp-content/uploads/2017/05/tensorflow-1.gif" width="640">
+
+Source: https://i2.wp.com/sourcedexter.com/wp-content/uploads/2017/05/tensorflow-1.gif
+
+### Existing networks
+
+* AlexNet
+* VGG
+* ResNet
+* SqueezeNet
+* DenseNet
+* Inception v3
+* GoogLeNet
+* ShuffleNet v2
+* MobileNet v2
+* ResNeXt
+* Wide ResNet
+* MNASNet
+
+For more details about these models, check out this documentation:
+https://pytorch.org/docs/stable/torchvision/models.html
+
+## Level 2 - Object Detection
+
+<img src="https://thumbs.gfycat.com/PowerfulSaltyCapeghostfrog-size_restricted.gif" width="640">
+
+Source: https://thumbs.gfycat.com/PowerfulSaltyCapeghostfrog-size_restricted.gif
+
+### Existing architecture
+
+* SSD: Single Shot MultiBox Detector
+* Deep Residual Network (ResNet)
+* You Only Look Once (YOLO): Unified, Real-Time Object Detection
+* R-CNN
+* Fast R-CNN
+* Faster R-CNN
+* OverFeat
+* ... and many more!
+
+## Level 3 - Instance Segmentation
+
+<img src="https://raw.githubusercontent.com/noxouille/rt-mrcnn/master/assets/demo.gif" width="640">
+
+Source: https://youtu.be/L1t8jYBwI5E
