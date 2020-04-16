@@ -6,7 +6,7 @@
 
 https://noxouille.github.io/pydata2020-3LVDL/
 
-# My Blog
+# PyData 2020
 
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
