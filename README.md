@@ -17,18 +17,6 @@ This repo contains information compiled from external sources, explaining the th
 ![alt text](https://miro.medium.com/max/2000/1*tQPeSFPrJLx4I6a8PizcqQ.png)
 Source: https://medium.com/@prashant.brahmbhatt32/the-yolo-object-detection-c195994b53aa
 
-### Convolutional Neural Network (CNN)
-
-![alt text](https://www.smalltechnews.com/wp-content/uploads/2020/01/frc-75f86bd633f67bfa0938d0dcbcc89375.jpg)
-
-Source: https://www.smalltechnews.com/wp-content/uploads/2020/01/frc-75f86bd633f67bfa0938d0dcbcc89375.jpg
-
-### Layer Visualization
-
-![Layer visualization](https://miro.medium.com/max/4076/1*ZD3ewOfpfsMAjhp4MYFnog.png)
-
-Source: https://miro.medium.com/max/4076/1*ZD3ewOfpfsMAjhp4MYFnog.png
-
 ## Level 1 - Image classification
 
 <img src="https://i2.wp.com/sourcedexter.com/wp-content/uploads/2017/05/tensorflow-1.gif" width="640">
