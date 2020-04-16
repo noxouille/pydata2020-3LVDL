@@ -35,40 +35,11 @@ Source: https://miro.medium.com/max/4076/1*ZD3ewOfpfsMAjhp4MYFnog.png
 
 Source: https://i2.wp.com/sourcedexter.com/wp-content/uploads/2017/05/tensorflow-1.gif
 
-### Existing networks
-
-* AlexNet
-* VGG
-* ResNet
-* SqueezeNet
-* DenseNet
-* Inception v3
-* GoogLeNet
-* ShuffleNet v2
-* MobileNet v2
-* ResNeXt
-* Wide ResNet
-* MNASNet
-
-For more details about these models, check out this documentation:
-https://pytorch.org/docs/stable/torchvision/models.html
-
 ## Level 2 - Object Detection
 
 <img src="https://thumbs.gfycat.com/PowerfulSaltyCapeghostfrog-size_restricted.gif" width="640">
 
 Source: https://thumbs.gfycat.com/PowerfulSaltyCapeghostfrog-size_restricted.gif
-
-### Existing architecture
-
-* SSD: Single Shot MultiBox Detector
-* Deep Residual Network (ResNet)
-* You Only Look Once (YOLO): Unified, Real-Time Object Detection
-* R-CNN
-* Fast R-CNN
-* Faster R-CNN
-* OverFeat
-* ... and many more!
 
 ## Level 3 - Instance Segmentation
 
