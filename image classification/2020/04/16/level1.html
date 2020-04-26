@@ -183,6 +183,14 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://colab.research.google.com/github/noxouille/pydata2020-3LVDL/blob/master/_notebooks/2020-04-16-level1.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>Compiled by: Ferdi Pratama</p>
 
 </div>
@@ -447,7 +455,7 @@ window.onload = wrap_img;
 <h3 id="Set-parameters">
 <a class="anchor" href="#Set-parameters" aria-hidden="true"><span class="octicon octicon-link"></span></a>Set parameters<a class="anchor-link" href="#Set-parameters"> </a>
 </h3>
-<p>TODO: Explain why we need these params</p>
+<p>It is a good practice to make sure that we minimize the risk of vanishing gradient, by normalizing the input image, in terms of the means and std devs. You can find a good explanation <a href="https://forums.fast.ai/t/is-normalizing-the-input-image-by-imagenet-mean-and-std-really-necessary/51338/4">here</a>.</p>
 
 </div>
 </div>
@@ -674,7 +682,6 @@ Note that the images have been resized to <code>input_size</code>.</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>At this point, we need a mapping between the numbered label and the actual names of the flowers.</p>
-<p>TODO: add more explanation</p>
 
 </div>
 </div>
@@ -780,7 +787,6 @@ cat_to_name.json    100%[===================&gt;]   2.17K  --.-KB/s    in 0s
 <p>The classifier layers of the pre-trained network must be replaced with a classifier that fits the parameters of our flower-image classification problem.</p>
 <p>Before building and replacing the network classifier, I will exclude all pre-trained parameters from gradient computation.</p>
 <p>The input in the new classifier must match the output of the pre-trained network (25,088). The output of the classifier will be the set of image categories in the flowers datasets (102).</p>
-<p>TODO: add more explanation</p>
 
 </div>
 </div>
@@ -1148,14 +1154,6 @@ test accuracy (819 images): 70.9%
 <h3 id="Visualized-model">
 <a class="anchor" href="#Visualized-model" aria-hidden="true"><span class="octicon octicon-link"></span></a>Visualized model<a class="anchor-link" href="#Visualized-model"> </a>
 </h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>TODO: add</p>
-
 </div>
 </div>
 </div>
@@ -1673,7 +1671,8 @@ test accuracy (819 images): 70.9%
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>TODO: add conclusion</p>
+<p>We have briefly covered the fundamentals of image classification with PyTorch, from transfer learning until prediction.
+Now, let's go one step deeper to object detection.</p>
 
 </div>
 </div>
@@ -1692,7 +1691,6 @@ test accuracy (819 images): 70.9%
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>This notebook is a compilation of multiple information taken from the following different sources.
 Credits go to their respective authors.</p>
-<p>TODO: add more reference</p>
 <ul>
 <li><a href="https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html">https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html</a></li>
 <li><a href="https://cs231n.github.io/transfer-learning/">https://cs231n.github.io/transfer-learning/</a></li>
