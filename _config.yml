@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: PyData Manaus 2020
-description: An easy to use blogging platform with support for Jupyter Notebooks.
+description: These are the materials I compiled for my talk on PyData Manaus 2020.
 github_username: noxouille
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "pydata2020-3LVDL"
